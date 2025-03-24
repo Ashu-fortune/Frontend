@@ -1,0 +1,63 @@
+// Task
+.f-task-title {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-m);
+  color: var(--clr-text);
+
+  &:hover {
+    color: var(--clr-primary);
+  }
+}
+
+.f-task-subtitle {
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-bm);
+  color: var(--clr-text-accent);
+}
+
+.bg-task {
+  background-color: var(--clr-bg-header);
+  box-shadow: var(--shadow-task);
+  border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+    .f-task-title {
+      color: var(--clr-primary);
+    }
+  }
+}
+
+.task {
+  padding: 1.5em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 280px;
+
+  &__meta {
+    display: flex;
+    margin-top: 8px;
+    gap: 10px;
+  }
+
+  &__time-badge,
+  &__date-badge {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  &__time-badge {
+    background-color: rgba(0, 0, 255, 0.1);
+    color: #0066cc;
+  }
+
+  &__date-badge {
+    background-color: rgba(0, 128, 0, 0.1);
+    color: #006633;
+  }
+}

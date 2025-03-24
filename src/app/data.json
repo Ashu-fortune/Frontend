@@ -1,0 +1,216 @@
+{
+  "boards": [
+    {
+      "name": "Marketing Campaigns",
+      "id": 1,
+      "active": true,
+      "columns": [
+        {
+          "name": "To Do",
+          "color": "#FFEE58",
+          "id": 1,
+          "boardID": 1,
+          "tasks": [
+            {
+              "name": "Create Social Media Content Calendar",
+              "id": 1,
+              "boardID": 1,
+              "columnID": 1,
+              "description": "Outline the posts and themes for the next quarter.",
+              "hoursRequired": 8,
+              "creationDate": "2025-03-10T14:30:00Z",
+              "subTasks": [
+                {
+                  "name": "Research competitors' strategies",
+                  "id": 1,
+                  "boardID": 1,
+                  "columnID": 1,
+                  "taskID": 1,
+                  "isDone": true
+                },
+                {
+                  "name": "Identify target audience trends",
+                  "id": 2,
+                  "boardID": 1,
+                  "columnID": 1,
+                  "taskID": 1,
+                  "isDone": false
+                },
+                {
+                  "name": "Draft initial calendar",
+                  "id": 3,
+                  "boardID": 1,
+                  "columnID": 1,
+                  "taskID": 1,
+                  "isDone": false
+                }
+              ]
+            },
+            {
+              "name": "Plan Webinar Series",
+              "id": 2,
+              "boardID": 1,
+              "columnID": 1,
+              "description": "Organize a series of webinars focusing on industry trends.",
+              "hoursRequired": 12,
+              "creationDate": "2025-03-12T09:15:00Z",
+              "subTasks": [
+                {
+                  "name": "Decide on topics",
+                  "id": 4,
+                  "boardID": 1,
+                  "columnID": 1,
+                  "taskID": 2,
+                  "isDone": true
+                },
+                {
+                  "name": "Secure guest speakers",
+                  "id": 5,
+                  "boardID": 1,
+                  "columnID": 1,
+                  "taskID": 2,
+                  "isDone": false
+                },
+                {
+                  "name": "Design promotional material",
+                  "id": 6,
+                  "boardID": 1,
+                  "columnID": 1,
+                  "taskID": 2,
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "id": 2,
+          "color": "#80DEEA",
+          "boardID": 1,
+          "tasks": [
+            {
+              "name": "Update Website Homepage",
+              "id": 3,
+              "boardID": 1,
+              "columnID": 2,
+              "description": "Redesign the homepage to better align with current branding.",
+              "hoursRequired": 16,
+              "creationDate": "2025-03-05T11:45:00Z",
+              "subTasks": [
+                {
+                  "name": "Gather user feedback",
+                  "id": 7,
+                  "boardID": 1,
+                  "columnID": 2,
+                  "taskID": 3,
+                  "isDone": true
+                },
+                {
+                  "name": "Draft wireframes",
+                  "id": 8,
+                  "boardID": 1,
+                  "columnID": 2,
+                  "taskID": 3,
+                  "isDone": true
+                },
+                {
+                  "name": "Implement changes",
+                  "id": 9,
+                  "boardID": 1,
+                  "columnID": 2,
+                  "taskID": 3,
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "color": "#66BB6A",
+          "id": 3,
+          "boardID": 1,
+          "tasks": [
+            {
+              "name": "Launch Email Newsletter",
+              "id": 4,
+              "boardID": 1,
+              "columnID": 3,
+              "description": "Send the first issue of the company's monthly newsletter.",
+              "hoursRequired": 6,
+              "creationDate": "2025-02-28T10:00:00Z",
+              "subTasks": [
+                {
+                  "name": "Finalize content",
+                  "id": 10,
+                  "boardID": 1,
+                  "columnID": 3,
+                  "taskID": 4,
+                  "isDone": true
+                },
+                {
+                  "name": "Design email template",
+                  "id": 11,
+                  "boardID": 1,
+                  "columnID": 3,
+                  "taskID": 4,
+                  "isDone": true
+                },
+                {
+                  "name": "Send test email",
+                  "id": 12,
+                  "boardID": 1,
+                  "columnID": 3,
+                  "taskID": 4,
+                  "isDone": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Product Development",
+      "id": 2,
+      "active": false,
+      "columns": [
+        {
+          "name": "Backlog",
+          "color": "#FFCC80",
+          "id": 4,
+          "boardID": 2,
+          "tasks": []
+        },
+        {
+          "name": "Design",
+          "color": "#B39DDB",
+          "id": 5,
+          "boardID": 2,
+          "tasks": []
+        },
+        {
+          "name": "Development",
+          "color": "#90CAF9",
+          "id": 6,
+          "boardID": 2,
+          "tasks": []
+        },
+        {
+          "name": "QA",
+          "color": "#FFAB91",
+          "id": 7,
+          "boardID": 2,
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Operations",
+      "id": 3,
+      "active": false,
+      "columns": []
+    }
+  ]
+}
