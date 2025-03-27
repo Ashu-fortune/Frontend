@@ -26,7 +26,7 @@ function Login() {
     const { email, password } = values
     const loginUser = { email, password }
     try {
-      const { data } = await axios.post(`/api/v1/auth/login`, loginUser)
+      const { data } = await axios.post(`https://backend-v43n.onrender.com/api/v1/auth/login`, loginUser)
       setValues({ name: '', email: '', password: '' })
       showAlert({
         text: `Welcome, ${data.user.name}. Redirecting to dashboard...`,

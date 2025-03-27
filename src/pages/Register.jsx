@@ -35,7 +35,7 @@ function Register() {
 
     try {
       const { data } = await axios.post(
-        `/api/v1/auth/register`,
+        `https://backend-v43n.onrender.com/api/v1/auth/register`,
         registerNewUser
       )
       setSuccess(true)
